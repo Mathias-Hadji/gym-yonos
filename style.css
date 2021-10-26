@@ -284,3 +284,88 @@ h1 {
         margin: 0 10px 45px;
     }
 }
+
+
+/* --------------- Section choix --------------- */
+
+#choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.bloc-training-choice {
+    width: 30%;
+    text-align: center;
+    color: #FFF;
+    margin: 50px 20px 70px;
+}
+
+.bloc-training-choice h3 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.bloc-training-choice p {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+.btn-outline-choice {
+    width: 300px;
+    padding: 15px 0;
+    font-size: 22px;
+    background: #000;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
+}
+
+.btn-outline-choice:hover {
+    transition: all ease-in-out 0.2s;
+    background: #fff;
+    color: #000;
+}
+
+
+/* Medias section choix */
+
+@media screen and (max-width: 1200px) {
+    .bloc-training-choice {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    #choice {
+        flex-direction: column;
+    }
+
+    .bloc-training h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .btn-outline-choice {
+        width: 250px;
+    }
+
+    .bloc-training-choice {
+        width: 350px;
+        margin: 50px 0px 70px;
+    }
+
+    .bloc-training-choice:nth-child(1) {
+        margin: 50px 20px 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .bloc-training-choice {
+        width: 300px;
+        margin: 50px 0px 70px;
+    }
+}
