@@ -14,3 +14,19 @@ if(window.matchMedia("(min-width: 850px)").matches) {
         blocModale.classList.remove('active-modale');
     });
 }
+
+
+
+
+// Aniv navbar
+
+const nav = document.querySelector('nav');
+
+window.addEventListener('scroll', () => {
+
+    if(window.scrollY > 30) {
+        nav.classList.add('anim-nav');
+    } else {
+        nav.classList.remove('anim-nav');
+    }
+})
