@@ -517,7 +517,7 @@ h1 {
 /* --------------- Section parallax --------------- */
 
 .parallax {
-    background-image: url(/ressources/img-paral.jpg);
+    background-image: url('./ressources/img-paral.jpg');
     background-attachment: fixed;
     background-position: center;
     width: 100%;
